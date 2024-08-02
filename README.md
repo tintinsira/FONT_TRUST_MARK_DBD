@@ -1,3 +1,15 @@
+# setup Project ครั้งแรก
+npm i
+
+# คู่มือการใช้งาน Git และ GitHub ผ่าน Command Line (CMD)
+
+## การติดตั้ง Git
+ก่อนเริ่มใช้งาน คุณต้องติดตั้ง Git ก่อน สามารถดาวน์โหลดได้จาก [Git](https://git-scm.com/downloads)
+
+## การตั้งค่าเบื้องต้น
+หลังจากติดตั้ง Git แล้ว ให้ตั้งค่า username และ email:
+
+```
 git config --global user.name "ชื่อของคุณ"
 git config --global user.email "อีเมลของคุณ"
 
