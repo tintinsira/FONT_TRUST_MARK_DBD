@@ -13,7 +13,7 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="card shadow-lg p-4 bg-white rounded-lg mt-[5rem] lg:w-[500px]">
+      <div className="card shadow-lg p-4 bg-white rounded-lg my-auto lg:w-[500px]">
         <div className="card-body">
           <h2 className="text-center text-2xl font-bold mb-4">Login</h2>
           <hr />
