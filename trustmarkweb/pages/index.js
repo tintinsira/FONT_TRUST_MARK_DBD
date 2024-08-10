@@ -1,11 +1,11 @@
-// pages/index.js
+import Link from "next/link";
 export default function Home() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" href="#">
           Next.js + Bootstrap
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,14 +23,14 @@ export default function Home() {
         >
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" href="/">
                 Home <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">
+              <Link className="nav-link" href="/about">
                 About
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -40,9 +40,9 @@ export default function Home() {
           <div className="col">
             <h1>Welcome to Next.js with Bootstrap</h1>
             <p>This is a simple example of using Next.js with Bootstrap.</p>
-            <a className="btn btn-primary" href="#">
+            <Link className="btn btn-primary" href="#">
               Click Me
-            </a>
+            </Link>
           </div>
         </div>
       </div>

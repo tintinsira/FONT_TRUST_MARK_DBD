@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
     "next": "14.2.5",
+    "postcss": "^8.4.41",
     "react": "^18",
     "react-dom": "^18",
+    "tailwindcss": "3.4.9",
     "trustmarkweb": "file:"
   },
   "devDependencies": {
