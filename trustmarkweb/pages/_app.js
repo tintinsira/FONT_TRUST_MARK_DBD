@@ -1,6 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
 import { kanit } from "../styles/fonts";
+import { appWithTranslation } from "next-i18next";
+import "../i18n";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -10,4 +12,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

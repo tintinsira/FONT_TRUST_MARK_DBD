@@ -11,10 +11,13 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
+    "i18next": "^23.15.1",
     "next": "14.2.5",
+    "next-i18next": "^15.3.1",
     "postcss": "^8.4.41",
     "react": "^18",
     "react-dom": "^18",
+    "react-i18next": "^15.0.2",
     "sweetalert2": "^11.12.4",
     "tailwindcss": "3.4.9",
     "trustmarkweb": "file:"
