@@ -7,7 +7,7 @@ import NavigationMenu from "./NavigationMenu";
 const LayoutAfterLogin = ({ children }) => {
   return (
     <div
-      className="w-full h-screen bg-[#F7F8FD] bg-cover bg-center"
+      className="w-full h-full bg-[#F7F8FD] bg-cover bg-center"
       style={{ backgroundImage: "url('/images/bgapp.png')" }}
     >
       <header className="flex justify-between bg-gradient-to-br from-white  to-[#c9cade] rounded-md px-4 drop-shadow-lg">
@@ -27,7 +27,7 @@ const LayoutAfterLogin = ({ children }) => {
         <div className="flex justify-end my-2 w-1/4">
           <Link
             href="#"
-            className="cursor-pointer border-none hover:bg-[#23206C] rounded-full my-auto p-1 text-white no-underline flex w-auto my-auto px-4 py-2"
+            className="cursor-pointer border-none hover:bg-[#23206C] rounded-full my-auto p-1 text-white no-underline flex w-auto px-4 py-2"
           >
             นายทดสอบ ระบบ
           </Link>
@@ -38,7 +38,7 @@ const LayoutAfterLogin = ({ children }) => {
           หน่วยงาน : กองพัฒนาระบบงานสารเทศ วันศุกร์ที่ 28 สิงหาคม 2567 13:31:44
         </small>
       </div>
-      <div className="mt-2 mb-8 mx-auto flex border border-purple-300 py-4 px-8 rounded-xl shadow-purple min-h-max max-w-[95%] ">
+      <div className="mt-2 mb-8 mx-auto flex border border-purple-300 py-4 px-8 rounded-xl shadow-purple min-h-[80vh] max-w-[95%] ">
         <NavigationMenu />
         <div className={`w-full`}>
           <main>{children}</main>
